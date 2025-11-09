@@ -81,4 +81,4 @@ const chartData = {
 
   const canvas = document.querySelector("#sales-chart")
 
-  const salesChart = new Chart(canvas, config);
+ new Chart(canvas, config);
