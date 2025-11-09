@@ -207,11 +207,11 @@
       });
     }
   }
-})({"7wZbQ":[function(require,module,exports,__globalThis) {
+})({"jIJTx":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 53486;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -845,7 +845,7 @@ const config = {
     }
 };
 const canvas = document.querySelector("#sales-chart");
-const salesChart = new (0, _auto.Chart)(canvas, config);
+new (0, _auto.Chart)(canvas, config);
 
 },{"@pnotify/core/dist/PNotify.js":"fay4s","@pnotify/mobile/dist/PNotifyMobile.js":"5RXYV","@pnotify/core/dist/PNotify.css":"c4y47","@pnotify/mobile/dist/PNotifyMobile.css":"iv3sV","@pnotify/core/dist/BrightTheme.css":"grIyt","chart.js/auto":"a3bOj"}],"fay4s":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
@@ -17418,6 +17418,6 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}]},["7wZbQ","2R06K"], "2R06K", "parcelRequire4bc5", {})
+},{}]},["jIJTx","2R06K"], "2R06K", "parcelRequire4bc5", {})
 
 //# sourceMappingURL=frontent-4.hww-5.0f77c784.js.map
